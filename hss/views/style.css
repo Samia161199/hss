@@ -1,0 +1,121 @@
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden; /* Prevent scrolling */
+    display: flex;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+table {
+    border-collapse: collapse; /* Collapse table borders */
+    width: 100%; /* Set table width to fill its container */
+}
+
+td {
+    padding: 10px; /* Set padding for table cells */
+    text-align: left; /* Align text left within table cells */
+}
+
+input {
+    width: 380px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none; /* Remove default outline */
+}
+
+input:focus {
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add a black shadow on focus */
+}
+
+button {
+    background-color: black; /* Button background color */
+    color: white; /* Button text color */
+    width: 401px;
+    padding: 10px 20px; /* Padding around the button text */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+button:hover {
+    background-color: #333; /* Darker background color on hover */
+} 
+
+button:active {
+   transform: translateY(1px); /* Add a slight vertical movement when clicked */
+}
+
+/* Style for the container holding the text and the login link */
+.container {
+   text-align: right; /* Align the content to the right */
+   margin-top: 20px; /* Add some top margin */
+}
+
+/* Style for the login link */
+.container a {
+   display: inline-block; /* Make the link display as a block */
+   padding: 10px 20px; /* Add padding around the link */
+   background-color: lightgray; /* Set background color */
+   color: black; /* Set text color */
+   text-decoration: none; /* Remove underline */
+   border-radius: 5px; /* Add rounded corners */
+   transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Hover effect for the login link */
+.container a:hover {
+   background-color: gray; /* Change background color on hover */
+}
+
+header {
+    background-color: #333; /* Set background color for the header */
+}
+
+/* CSS for header */
+.header-nav {
+    float: right; /* Align the header to the right */
+    margin-right: 20px; /* Add some margin to separate it from the main content */
+}
+
+.header-nav ul {
+    list-style-type: none; /* Remove bullet points from the list */
+}
+
+.header-nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Add some spacing between list items */
+}
+
+.header-nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set link color */
+}
+
+/* CSS for main content */
+.content {
+    float: right; /* Align the main content to the left */
+    width: 90.5%; /* Set width to 80% of the viewport width */
+    /* Add padding to the main content */
+    background-color: #f0f0f0; /* Example background color to differentiate it from header */
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+.content {
+        width: 100%; /* Set width to 100% for smaller screens */
+}
+
+ 
+
+
+</style>
